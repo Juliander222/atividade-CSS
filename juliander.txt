@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Exercício de CSS</title>
+
+  <style>
+    /* Seletor por TAG */
+    body {
+      background-color: #f2f2f2;
+      font-family: Arial, sans-serif;
+    }
+
+    h1 {
+      color: blue;
+      text-align: center;
+    }
+
+    /* Seletor por CLASSE */
+    .destaque {
+      color: red;
+      font-weight: bold;
+    }
+
+    /* Seletor por ID */
+    #rodape {
+      background-color: #222;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      margin-top: 20px;
+    }
+
+    /* Seletor por TAG */
+    h2 {
+      color: green;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Niggar Shop</h1>
+  <p>Veja a loja do niggar favorito de todos:</p>
+
+  <h2>Makitas</h2>
+  <p>A Makita é uma renomada marca japonesa especializada em ferramentas elétricas, a bateria e a combustão, atendendo desde entusiastas de bricolagem até profissionais da construção civil e indústria. A empresa oferece uma vasta gama de produtos, com destaque para a qualidade, durabilidade e desempenho..</p>
+
+  <h2 class="destaque">Pc gamer de ultima geração</h2>
+  <p>Processador: AMD Ryzen 9 800X3D.
+Placa-mãe: A Gigabyte Z790 AERO G foi usada em uma versão anterior, mas ele trocou para AMD. A placa atual não foi divulgada.
+Placa de vídeo: Diversas placas foram associadas a ele ao longo do tempo (RTX 3090, RTX 4070, RTX 4090), mas não há uma confirmação pública da placa atual.
+Water cooler: Lian Li Galahad LCD 360.
+Memória RAM: 32 GB DDR5 Kingston Fury Renegade 7200 MHz.
+Armazenamento: M.2 Kingston Fury Renegade 4 TB.
+Fonte: Corsair HX1200.
+Gabinete: NZXT H9 Elite - PARA GAMEPLAYS CABULOSAS .</p>
+
+  <h2>Cavalo</h2>
+  <p>Comprar um cavalo oferece diversas vantagens, como benefícios para a saúde física e mental, promovendo exercício ao ar livre, reduzindo o estresse e melhorando o bem-estar. Além disso, proporciona companheirismo e laços de confiança únicos, melhora a saúde cardiovascular e desenvolve o senso de responsabilidade, atenção e conexão com a natureza e outras pessoas. .</p>
+
+  <div id="rodape">
+    © 2025 Bigjohn Supplements
+  </div>
+
+</body>
+</html>
